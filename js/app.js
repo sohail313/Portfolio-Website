@@ -7,7 +7,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 1200,
     });
-
+});
 
 
     let hamburger = document.querySelector('.hamburger');
@@ -20,7 +20,3 @@ $(document).ready(function(){
     times.addEventListener('click',function(){
         mobileNav.classList.remove('open');
     });
-
-
-
-})

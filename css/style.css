@@ -225,6 +225,7 @@ section.services .card-wrapper .card{
     text-align: center;
     transition: all .3s ease;
 }
+
 section.services .card-wrapper .card:hover{
     background:var(--dark);
     transition: all .3s ease;

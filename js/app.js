@@ -5,6 +5,22 @@ $(document).ready(function(){
         appendDots: '.slider-dots',
         dotsClass: 'dots',
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1200,
     });
+
+
+
+    let hamburger = document.querySelector('.hamburger');
+    let times = document.querySelector('.times');
+    let mobileNav = document.querySelector('.mobile-nav');
+
+    hamburger.addEventListener('click',function(){
+        mobileNav.classList.add('open');
+    });
+    times.addEventListener('click',function(){
+        mobileNav.classList.remove('open');
+    });
+
+
+
 })

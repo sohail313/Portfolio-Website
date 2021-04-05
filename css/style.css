@@ -603,6 +603,10 @@ footer .copyright{
     .about .right .social{
         justify-content: center;
     }
+    section.about h1{
+        text-align: center;
+        margin-top: 2rem;
+    }
     section{
         padding: 4rem 0;
     }
